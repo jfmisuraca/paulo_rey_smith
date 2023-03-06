@@ -1,7 +1,7 @@
 html,
 * {
   background-image: url('../recursos/background_dracula.png') !important;
-  font-family: Atkinson Hyperlegible, OpenDyslexic, sans-serif, Arial;
+  font-family: Atkinson Hyperlegible, OpenDyslexic, sans-serif, Arial; /* fuentes no embebidas para aligerar tiempo de cargas. Se priorizan las de fácil lectura para mejorar la accesibilidad*/
 }
 
 body {
