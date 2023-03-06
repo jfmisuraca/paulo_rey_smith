@@ -59,6 +59,9 @@ strong,
 
 table {
 	background-color: rgba(40, 42, 54, 1) !important;
+  border-collapse: collapse;
+  text-align: center;
+  width: auto;
 }
 
 [id*="overlay"],
@@ -120,10 +123,10 @@ a.active *,
   width: 250px;
 }
 
-form {
+form , th, td {
     border: 0.5px solid;
     text-align: center;
-    padding: 1%;
+    padding: 15px;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 0%;
